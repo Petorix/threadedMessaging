@@ -1,0 +1,3 @@
+In this lab me and Mason have included two separate classes.  An orderclient class and a messaging class.  Each have the purpose of controlling the flow of threads into these delicate data types (a queue, and a map). 
+
+Apart from this, in the server.cc where we keep the main function we created several mutexes and condition_variables that will help regulate both the 'head thread' located in the serve function, and also the worker threads (located at the top of server.cc).
